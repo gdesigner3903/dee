@@ -1,0 +1,861 @@
+@media(max-width: 1199px){}
+
+@media(max-width: 991px){
+	.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    text-align: right;
+    list-style: none;
+}
+	.navbar-dark .navbar-nav .nav-link {
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 10px;   
+}
+
+.aboutMe {
+    margin-top: 80px;
+}
+.heading h1 {
+    font-size: 40px;
+    padding-left: 63px;
+}
+.heading span {
+    font-size: 78px !important;
+}
+.aboutMe p {
+    padding-top: 4px;
+    font-weight: 300;
+    font-size: 11px !important;
+    margin: 0;
+}
+.skills{
+	margin-top: 80px;
+}
+.skills .heading h1 {
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    padding: 0
+}
+
+.skills .heading span {
+    font-size: 78px !important;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 1.5px;
+}
+
+.skill-category h3 {
+    font-size: 25px;
+}
+
+.skill p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.rusume .container{
+	margin-top: 80px;
+    margin-bottom: 80px
+
+}
+
+.rusume .heading span {
+    font-size: 78px !important;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 3.5px;
+}
+
+.rusume .heading h1 {
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    padding: 0
+}
+
+.rusume-content{
+    text-align: left;
+    position: relative;
+    padding:20px 20px !important;
+}
+
+.rusume-content::after{
+	content: "";
+    position: absolute;
+    background-image: url(../images/shape.png);
+    background-repeat: no-repeat;
+    background-size: 92% 100%;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+
+}
+
+.rusume-content:hover::after{
+	opacity: 1;
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+	padding-right: 40px !important;
+	padding-left: 20px !important
+}
+
+.rusume-content h6 {
+    font-size: 14px;
+}
+
+.rusume-content h2{
+	font-size: 18px;
+}
+
+.rusume-content h3 {
+    font-size: 15px;
+    color: #242424;
+    padding-bottom: 10px;
+}
+
+.rusume-content p {
+   font-size: 12px;
+    
+}
+
+.portfoliow{
+	margin-bottom: 80px
+}
+
+.portfoliow .heading span {
+    font-size: 78px !important;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 3.5px;
+}
+
+.portfoliow li {
+    padding: 65px 10px 25px 10px;
+}
+
+.qus{
+	padding-bottom: 80px
+}
+
+.col h1{
+	font-size: 30px;
+    margin: 0
+}
+.col h2{
+	font-size: 30px;
+    margin: 0
+}
+
+.col a{
+    font-size: 15px;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+}
+
+.col a:hover{
+	border: 2px solid white
+}
+
+.contact{
+	margin-bottom: 80px
+}
+
+.social a {
+   font-size: 26px;
+   padding: 10px 0px; 
+}
+
+.embed-responsive {
+    border: 1px solid #61bdd5;
+    height: 290px;
+}
+
+.social{
+	padding-bottom: 80px
+
+}
+
+
+
+}
+
+
+
+@media(max-width: 767px){
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    text-align: center;
+    list-style: none;
+}
+	.navbar-dark .navbar-nav .nav-link {
+    padding-top: 5px;
+    padding-bottom: 7px;
+    font-size: 14px; 
+}
+
+
+.banner-content h1 {
+    font-size: 36px;
+   
+}
+
+
+.banner-content p {
+    font-size: 12px;
+    max-width: 345px;
+    margin: 25px auto;
+}
+
+.banner-content ul li{
+	margin: 0 10px;
+}
+
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 60px;
+}
+
+.btn-custom {
+    font-size: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
+    
+}
+
+
+.btn-custom-reverse{
+	font-size: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.social-link{
+	position: absolute;
+	right: 50px;
+	top: 40%;
+}
+
+.social-link li a {
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    margin-bottom: 12px;
+    color: #777;
+    transition: 0.5s;
+}
+
+.social-link li span{
+	position: absolute;
+	color: #fff;
+	text-transform: capitalize;
+	width: 60px;
+	font-size: 12px;
+	transform: rotate(-90deg);
+	bottom: -40px;
+	left: -16px;
+}
+
+
+
+.aboutMe {
+    margin-top: 60px;
+}
+.heading h1 {
+    font-size: 40px;
+    padding-left: 13px;
+}
+.heading span {
+    font-size: 78px !important;
+    width: 100%;
+    text-align: center;
+}
+.aboutMe p {
+    padding-top: 5px;
+    font-weight: 300;
+    font-size: 12px !important;
+    margin: 0;
+}
+.skills{
+	margin-top: 60px;
+}
+.skills .heading h1 {
+    font-size: 34px;
+    width: 100%;
+    text-align: center;
+    padding: 0
+}
+
+.skills .heading span {
+    font-size: 57px !important;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 1.5px;
+}
+
+.skill-category h3 {
+    font-size: 20px;
+    padding-top: 46px;
+}
+
+.skills .col-sm-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-bottom: 30px}
+
+.skill p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.skill{ 
+	
+	position: relative;
+	text-align: center;
+
+}
+
+.skill::after{
+	content: none;
+	
+}
+
+.skill:hover p{
+	bottom: 50%;
+	transform: translate(-50%, 50%);
+	opacity: 0;
+
+}
+
+.skills .col-sm-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    padding-bottom: 30px;
+    max-width: 100%;
+}
+
+.rusume .container{
+	margin-top: 60px;
+    margin-bottom: 60px
+
+}
+
+.rusume .heading span {
+    font-size: 39px !important;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 1.5px;
+}
+.rusume .heading h1 {
+    font-size: 34px;
+    width: 100%;
+    text-align: center;
+    padding: 0
+}
+
+.rusume-content{
+    text-align: left;
+    position: relative;
+    padding:20px 20px !important;
+}
+
+
+
+.rusume h5 {
+    margin-top: 45px;
+    margin-bottom: 37px;
+    text-align: left;
+    color: #aaaaaa;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.rusume-content h6 {
+    font-size: 14px;
+}
+
+.rusume-content h2{
+	font-size: 18px;
+}
+
+.rusume-content h3 {
+    font-size: 15px;
+    color: #242424;
+    padding-bottom: 10px;
+}
+
+.rusume-content p {
+   font-size: 12px;
+   max-width: 295px;
+    
+}
+
+.portfoliow{
+	margin-bottom: 60px
+}
+
+.portfoliow .heading h1 {
+    font-size: 32px;
+    padding-left: 13px;
+}
+.portfoliow .heading span {
+    font-size: 43px !important;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 1.5px;
+}
+
+.portfoliow ul li a {
+    color: #00b5e4;
+    font-size: 13px;
+    font-weight: 500;
+    border: 2px solid transparent;
+    border-bottom-right-radius: 15px;
+    padding: 4px 4px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.portfoliow li {
+    padding: 50px 10px 25px 10px;
+}
+
+.qus{
+	padding-bottom: 60px
+}
+
+.col h1{
+	font-size: 22px;
+    margin: 0
+}
+.col h2{
+	font-size: 22px;
+    margin: 0
+}
+
+.col a{
+    font-size: 12px;
+    padding: 3px 8px;
+    border: 2px solid transparent;
+    border-bottom-right-radius: 15px
+}
+
+.col a:hover{
+	border: 2px solid white
+}
+
+.contact{
+	margin-bottom: 60px
+}
+
+.contact .heading h1 {
+    font-size: 32px;
+    /* padding-left: 13px; */
+}
+
+.heading span {
+    font-size: 62px !important;
+    width: 100%;
+    text-align: center;
+}
+
+.social a {
+   font-size: 22px;
+   padding: 10px 0px; 
+}
+
+.embed-responsive {
+    border: 1px solid #61bdd5;
+    height: 290px;
+}
+
+.social{
+	padding-bottom: 80px
+
+}
+
+
+
+
+}
+
+@media(max-width: 576px){
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    text-align: center;
+    list-style: none;
+}
+	.navbar-dark .navbar-nav .nav-link {
+    padding-top: 6px;
+    padding-bottom: 11px;
+    font-size: 12px;
+}
+
+
+.banner-content h1 {
+    font-size: 28px;
+}
+
+
+.banner-content p {
+   font-size: 10px;
+    max-width: 328px;
+    margin: 20px auto;
+}
+
+.banner-content ul li{
+	margin: 0 10px;
+}
+
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 60px;
+}
+
+.btn-custom {
+    font-size: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    
+}
+.social-link{
+	position: none;
+	right: 50px;
+	top: 40%;
+}
+
+.social-link li a{
+	width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    background-color: transparent;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+	margin-bottom: 12px;
+	color: #777;
+	transition: 0.5s;
+	opacity: 0
+}
+
+.social-link li a:hover{
+	background-color: transparent;
+	color: #fff;
+}
+
+.social-link li span{
+	position: none;
+	color: transparent;
+	text-transform: capitalize;
+	width: 60px;
+	font-size: 12px;
+	transform: rotate(-90deg);
+	bottom: -40px;
+	left: -16px;
+}
+
+
+
+.btn-custom-reverse{
+	font-size: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.social-link{
+	position: absolute;
+	right: 50px;
+	top: 40%;
+}
+
+.social-link li a {
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    margin-bottom: 12px;
+    color: #777;
+    transition: 0.5s;
+}
+
+.social-link li span{
+	position: absolute;
+	color: transparent;
+	text-transform: capitalize;
+	width: 60px;
+	font-size: 12px;
+	transform: rotate(-90deg);
+	bottom: -40px;
+	left: -16px;
+}
+
+
+
+.aboutMe {
+    margin-top: 60px;
+}
+.aboutMe .heading h1 {
+    font-size: 32px;
+    padding-left: 13px;
+}
+.heading span {
+    font-size: 78px !important;
+    width: 100%;
+    text-align: center;
+}
+.aboutMe p {
+    padding-top: 5px;
+    font-weight: 300;
+    font-size: 12px !important;
+    margin: 0;
+}
+.skills{
+	margin-top: 60px;
+}
+.skills .heading h1 {
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    padding: 0
+}
+
+.skills .heading span {
+    font-size: 37px !important;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 1.5px;
+}
+
+.skill-category h3 {
+    font-size: 19px;
+    padding-top: 40px;
+}
+
+.skills .col-sm-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-bottom: 30px}
+
+.skill p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.skill{ 
+	
+	position: relative;
+	text-align: center;
+
+}
+
+.skill::after{
+	content: none;
+	
+}
+
+.skill:hover p{
+	bottom: 50%;
+	transform: translate(-50%, 50%);
+	opacity: 0;
+
+}
+
+.skills .col-sm-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    padding-bottom: 30px;
+    max-width: 100%;
+}
+
+.rusume .container{
+	margin-top: 60px;
+    margin-bottom: 60px
+
+}
+
+.rusume .heading span {
+   font-size: 37px !important;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 1.5px;
+}
+
+.rusume .heading h1 {
+     font-size: 22px;
+    width: 100%;
+    text-align: center;
+    padding: 0
+}
+
+.rusume-content{
+    text-align: left;
+    position: relative;
+    padding:20px 20px !important;
+}
+
+
+
+.rusume h5 {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: left;
+    color: #aaaaaa;
+    font-weight: 600;
+}
+
+.rusume-content h6 {
+    font-size: 14px;
+}
+
+.rusume-content h2{
+	font-size: 18px;
+}
+
+.rusume-content h3 {
+    font-size: 15px;
+    color: #242424;
+    padding-bottom: 10px;
+}
+
+.rusume-content p {
+   font-size: 12px;
+   max-width: 295px;
+    
+}
+
+.portfoliow{
+	margin-bottom: 60px
+}
+
+.portfoliow .heading h1 {
+     font-size: 22px;
+     width: 100%;
+     text-align: center;
+     padding: 0
+}
+.rusume .heading span {
+    font-size: 39px !important;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 1.5px;
+}
+
+.portfoliow ul li a {
+    color: #00b5e4;
+    font-size: 9px;
+    font-weight: 500 !important;
+    /* border: 2px solid transparent !important; */
+    border-bottom-right-radius: 15px;
+    padding: 6px 6px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.portfoliow li {
+    padding: 20px 10px 25px 10px;
+}
+
+.qus{
+	padding-bottom: 60px
+}
+
+.col h1{
+	font-size: 14px;
+    margin: 0
+}
+.col h2{
+	font-size: 14px;
+    margin: 0
+}
+
+.col a{
+    font-size: 11px;
+    padding: 0px 4px;
+    border: 2px solid transparent;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+}
+
+.col a:hover{
+	border: 2px solid white
+}
+
+.contact{
+	margin-bottom: 60px
+}
+
+.contact .heading h1 {
+     font-size: 22px;
+     width: 100%;
+     text-align: center;
+     padding: 0
+}
+
+.contact .heading span {
+    font-size: 37px !important;
+    width: 100%;
+    text-align: center;
+}
+
+.social a {
+   font-size: 18px;
+   padding: 10px 0px; 
+}
+
+.embed-responsive {
+    border: 1px solid #61bdd5;
+    height: 290px;
+}
+
+.social{
+	padding-bottom: 80px
+
+}
+
+
+
+
+}

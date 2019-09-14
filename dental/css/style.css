@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+
+body{
+	font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0s
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 2rem 1rem !important;
+}
+.navbar-nab .fa, .fas {
+    font-weight: 900;
+    font-size: 40px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(246, 145, 101);
+    padding: 0px 15px;
+
+}
+.navbar-light .navbar-nav .nav-link h6 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0
+}
+.navbar-light .navbar-nav .nav-link span {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    color: black
+}
+.navbar-nav .fa, .far, .fas {
+    font-family: "Font Awesome 5 Pro";
+    font-size: 40px;
+    padding-right: 10px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: black
+}
+.navbar-light .navbar-nav .nav-link span:hover{
+    color: rgb(246, 145, 101);
+}
+.heading{
+    background-color: #00cce1
+}
+.heading .nav{
+    padding: 0 
+}
+
+.nav a {
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+
+.appoinment a {
+    color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    text-align: right;
+    padding-bottom: 30px
+}
+.appoinment .nav {
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-bottom-right-radius: 20px
+}
+.appoinment h6 {
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 3px;
+    margin: 0;
+}
+.appoinment a ul li i  {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.banner{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    background-size: cover;
+
+
+}
+.banner .row{
+    min-height: 80vh;
+}
+
+.banner-content {
+    color: black;
+    padding: 120px 0px;
+}
+
+.banner-content h2 {
+    text-align: center;
+    background-color: #00cce1;
+    width: 60%;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
+.banner-content h1 {
+    background-color: #f69165;
+    color: white;
+    width: 75%;
+    text-align: center;
+    font-weight: 600;
+}
+.banner-content p {
+    margin-bottom: 40px;
+    margin-top: 14px;
+    font-weight: 300;
+}
+
+.banner-content ul li{
+    margin: 0 10px;
+}
+
+.button li a {
+    color: white;
+    padding: 10px 10px;
+}
+
+.btn-custom {
+    border: 2px solid #f69165;
+    text-transform: uppercase;
+    border-radius: 0;
+    color: #fff;
+    font-size: 15px;
+    background-color: #f69165;
+    border-bottom-left-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+.btn-custom:hover{
+    background-color: transparent;
+    color: #f69165;
+}
+
+.btn-custom-reverse {
+    border: 2px solid #00cce1;
+    border-radius: 0;
+    background-color: #00cce1;
+    color: #f69165;
+    font-size: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+}
+.btn-custom-reverse:hover{
+    background-color: transparent;
+    color: #00cce1;
+}
+
+.welcome{
+    margin-top: 100px
+}
+
+.welcome img{
+    vertical-align: middle;
+    border-style: none;
+    max-width: 98vh
+}
+
+.welcome h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.welcome p{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #969696;
+    font-weight: 400;
+}
+.row-content{}
+.row-content h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.welcome .row-content img{
+    max-width: 30px;
+    padding: 20px 0 10px 0;
+    margin-bottom: 10px margin-top:20px;
+
+}
+.row-content p {
+    color: #969696;
+    font-size: 13px;
+    font-weight: 300px;
+    margin: 0;
+
+}
+
+.meet{
+    padding-top: 100px;
+    background-color: #f9f9f9 !important;
+    text-align: center  
+}
+
+.meet h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: black
+}
+
+.meet img{
+    max-width: 30px;
+    margin-bottom: 10px
+}
+
+.meet p{
+    margin-top: 0;
+    margin-bottom: 5rem;
+    font-size: 14px;
+    color: #969696;
+    font-weight: 400;
+}
+
+.meet-content{
+  text-align: center;
+  position:relative;
+}
+
+.meet-content::after{
+    content: "";
+    position: absolute;
+    background-color: #151414c2;
+    width: 100%;
+    height: 50%;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+    opacity: 0;
+    
+}
+
+.meet-content:hover::after{
+    height: 100%;
+    opacity:1;
+}
+
+.meet-content img {
+    max-width: 53vh;
+    position: relative;
+    margin: 0
+}
+
+.meet-content-text h4 {
+    font-size: 20px;
+    margin: 0;
+    padding-top: 15px;
+    font-weight: 700;
+}
+.meet-content-text span {
+    font-size: 15px;
+    color: #7b7b7b;
+    font-weight: 400;
+}
+
+.box-content{
+    text-align: center;
+}
+.box-content ul{}
+.box-content .nav {
+    padding: 0 70px;
+}
+.box-content ul li{
+ margin: 10px 10px;
+}
+
+.box-content ul li a {
+    color: black;
+    border: 1px solid black;
+    padding: 0;
+    font-size: 20px;
+    padding: 6px 15px;
+}
+
+.box-content ul li a i{
+    font-size: 20px
+}
+
+.box-content .nav::before{
+    content:"";
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 0%;
+    left: 0;
+    bottom: 30%;
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 1
+}
+
+.box-content .nav:hover::before{
+ height: 100%;
+ opacity: 1
+}
